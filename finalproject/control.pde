@@ -17,6 +17,15 @@ void keyPressed() {
   if (keyCode == 8) { // DELETE
     xy.clearWaves();
   }
+  switch (keyCode) 
+  {  
+    case 97:  
+        S[1].play();
+        break;
+    case 98: 
+        S[2].play();   
+        break;
+  }
 }
 
 void mousePressed() {

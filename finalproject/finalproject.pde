@@ -1,7 +1,11 @@
 import processing.sound.*;
+PGraphics pg;
 SoundFile file;
 Amplitude ampl;     
 float x;
+ArrayList<Stroke> strokes;
+int marktime = 0;
+int timeout = 1000;
 
 void setup() {
   size(680, 400);
